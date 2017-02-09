@@ -18,7 +18,7 @@ p {
 position: absolute;
 	top:40px;
 	left:50px;
-	font-size: 90px;
+	font-size: 70px;
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
@@ -31,7 +31,7 @@ position: absolute;
 #bills {
 	position: absolute;
 	top:200px;
-	left:210px;
+	left:170px;
 	font-size: 120px;
 	float: left;
 	padding: 5px 15px;
