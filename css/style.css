@@ -1,0 +1,131 @@
+body {
+	
+
+font-family: 'Cinzel Decorative', cursive;
+
+	font-size: 34px;
+}
+
+#front{
+	position: relative;
+	top:80px;
+	left:120px;
+}
+
+#title1 {
+	position: absolute;
+	top:450px;
+	left:400px;
+	letter-spacing: 10px;
+}
+
+#title2 {
+	position: absolute;
+	font-size: 50px;
+	top:540px;
+	left:500px;
+		letter-spacing: 8px;	
+	
+}
+
+p{
+	font-family: 'Merriweather', serif;
+	
+}
+
+#column1{
+
+	position: absolute;
+	top:640px;
+	left:450px;
+	font-size: 15px;
+		width: 430px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+        line-height: 150%;
+
+}
+
+#column2{
+
+	position: absolute;
+	top:1200px;
+	left:-43px;
+	font-size: 15px;
+		width: 400px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 150%;
+}
+
+
+#quote1{
+	position: absolute;
+	top:1550px;
+	left:-30px;
+	font-size: 45px;
+		width: 400px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+     	line-height: 135%;
+    text-align: right;
+}
+
+#column3 {
+
+position: absolute;
+	top:1200px;
+	left:450px;
+	font-size: 15px;
+		width: 400px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 150%;
+
+}
+
+#love {
+	position: absolute;
+
+	top:1841px;
+	left:170px;
+	z-index: -1;
+}
+
+#column4{
+	position: absolute;
+	top:70px;
+	left:-220px;
+	font-size: 15px;
+		width: 180px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: left;
+     	line-height: 150%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+p {
+
+	position: absolute;
+	top:140px;
+	left:450px;
+	font-size: 18px;
+		width: 450px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 150%;
+}
+
+#title {
+
+position: absolute;
+	top:40px;
+	left:50px;
+	font-size: 90px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 130%;
+
+}
+
+#bills {
+	position: absolute;
+	top:200px;
+	left:210px;
+	font-size: 120px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 150%;
+    -ms-transform: rotate(-17deg); /* IE 9 */
+    -webkit-transform: rotate(-17deg); /* Chrome, Safari, Opera */
+    transform: rotate(-17deg);
+}

@@ -1,0 +1,30 @@
+h1 {
+	font-size: 70px;
+}
+
+a {
+	font-family: 'Oswald', sans-serif;
+
+}
+
+#first {
+
+    margin-left: 100px;
+    font-size: 30px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+
+}
+
+#second {
+
+	position: absolute;
+	top:1200px;
+	left:450px;
+    font-size: 30px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
