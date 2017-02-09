@@ -20,11 +20,11 @@ a {
 #second {
 
 	position: absolute;
-	top:1200px;
+	top:400px;
 	left:450px;
-    font-size: 30px;
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
+    font-size: 70px;
+    -ms-transform: rotate(-17deg); /* IE 9 */
+    -webkit-transform: rotate(-17deg); /* Chrome, Safari, Opera */
+    transform: rotate(-17deg);
 }
 
