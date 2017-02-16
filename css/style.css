@@ -1,43 +1,116 @@
-body {
-	
+body{
+	margin-left: 80px;
 
-font-family: 'Cinzel Decorative', cursive;
-
-	font-size: 34px;
 }
 
-#front{
-	position: relative;
-	top:80px;
-	left:120px;
+a {
+	color: black;
 }
+
+
+a:visited {
+	color: black;
+}
+
+#front {
+	position: absolute;
+	left:20px;
+	top:-40px;
+	width: 100%;
+	height: 100%;
+}
+
+
+
 
 #title1 {
 	position: absolute;
-	top:450px;
-	left:400px;
-	letter-spacing: 10px;
+	top:180px;
+	left:450px;
+	z-index: 1;
 }
 
-#title2 {
+#title1{ transition: all .1s ease-in-out; }
+#title1:hover { transform: scale(1.2); }
+
+
+#deck1 {
 	position: absolute;
-	font-size: 50px;
-	top:540px;
-	left:500px;
-		letter-spacing: 8px;	
-	
+	left: 820px;
+	top:495px;
+
+
+}
+
+#deck2 {
+ 	font-size: 36px;
+	position: absolute;
+	left: 780px;
+	top:505px;
+
+}
+
+#deck2{ transition: all .2s ease-in-out; }
+#deck2:hover { transform: scale(1.7); }
+
+#deck3 {
+
+	position: absolute;
+	left: 800px;
+	top:580px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+    line-height: 120%;
+    width: 330px;
+    text-align: left;
+    font-size: 13px;
+    text-align: justify;
+    text-justify: inter-word;
+
+
 }
 
 p{
 	font-family: 'Merriweather', serif;
+		margin-left: 80px;
+
 	
 }
+
+#photo2 {
+
+position: absolute;
+	top:790px;
+	left:500px;
+	z-index: -1;
+
+
+}
+
+#photo2:hover{
+	opacity: .7;
+}
+
+#photo2:hover img {border-radius:80%;}
+#photo2{ transition: all .3s ease-in-out; }
+
+#KOI {
+
+position: absolute;
+	top:530px;
+	left:150px;
+
+}
+
+#KOI{ transition: all .2s ease-in-out; }
+#KOI:hover { transform: scale(1.6); }
 
 #column1{
 
 	position: absolute;
-	top:640px;
-	left:450px;
+	top: 930px;
+	left: 0px;
 	font-size: 15px;
 		width: 430px; /* Account for margins + border values */
 	float: left;
@@ -52,10 +125,10 @@ p{
 #column2{
 
 	position: absolute;
-	top:1200px;
-	left:-43px;
+	top:2200px;
+	left:0px;
 	font-size: 15px;
-		width: 400px; /* Account for margins + border values */
+		width: 430px; /* Account for margins + border values */
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
@@ -67,10 +140,10 @@ p{
 
 #quote1{
 	position: absolute;
-	top:1550px;
-	left:-30px;
+	top:1840px;
+	left:0px;
 	font-size: 45px;
-		width: 400px; /* Account for margins + border values */
+		width: 630px; /* Account for margins + border values */
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
@@ -78,13 +151,16 @@ p{
     text-align: right;
 }
 
+#quote1{ transition: all .2s ease-in-out; }
+#quote1:hover { transform: scale(1.2); }
+
 #column3 {
 
 position: absolute;
-	top:1200px;
-	left:450px;
+	top:1450px;
+	left:600px;
 	font-size: 15px;
-		width: 400px; /* Account for margins + border values */
+		width: 430px; /* Account for margins + border values */
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
@@ -96,15 +172,21 @@ position: absolute;
 
 #love {
 	position: absolute;
-
-	top:1841px;
-	left:170px;
+	top:2010px;
+	left:500px;
 	z-index: -1;
 }
 
+#love:hover{
+	opacity: .7;
+}
+
+#love:hover img {border-radius:60%;}
+#love{ transition: all .3s ease-in-out; }
+
 #column4{
 	position: absolute;
-	top:70px;
+	top:2270px;
 	left:-220px;
 	font-size: 15px;
 		width: 180px; /* Account for margins + border values */
@@ -112,18 +194,241 @@ position: absolute;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 	text-align: left;
+	text-align: justify;
+    text-justify: inter-word;
      	line-height: 150%;
 
+}
+
+#photo3{
+	position: absolute;
+	top:2730px;
+	left:450px;
+}
+
+#photo3:hover{
+	opacity: .7;
+}
+
+#photo3:hover img {border-radius:50%;}
+#photo3{ transition: all .5s ease-in-out; }
+
+#photo4 {
+	position: absolute;
+	top:2730px;
+	left:810px;
+}
+
+#photo4:hover{
+	opacity: .7;
+}
+
+#photo4:hover img {border-radius:50%;}
+#photo4{ transition: all .5s ease-in-out; }
+
+#photo5{
+	position: absolute;
+	top:2730px;
+	left:80px;
+}
+
+#photo5:hover{
+	opacity: .7;
+}
+
+#photo5:hover img {border-radius:50%;}
+#photo5{ transition: all .5s ease-in-out; }
+
+#column5{
+	position: absolute;
+	top:3240px;
+	left:120px;
+	font-size: 15px;
+		width: 410px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: left;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 150%;
+
+}
+
+#column6{
+	position: absolute;
+	top:3240px;
+	left:600px;
+	font-size: 15px;
+		width: 410px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: left;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 150%;
 
 }
 
 
+/*Eliminates padding, centers the thumbnail */
+
+body, html {
+padding: 0;
+margin: 0;
+}
+
+/* Styles the thumbnail */
+
+a.lightbox img {
+height: 500px;
+margin: 94px 20px 20px 20px;
+z-index: -1;
+}
+
+/* Styles the lightbox, removes it from sight and adds the fade-in transition */
+
+.lightbox-target {
+position: fixed;
+top: -100%;
+width: 100%;
+background: rgba(0,0,0,.7);
+width: 100%;
+opacity: 0;
+-webkit-transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-o-transition: opacity .5s ease-in-out;
+transition: opacity .5s ease-in-out;
+overflow: hidden;
+float: left;
+}
+
+/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
+
+.lightbox-target img {
+margin: auto;
+position: absolute;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+max-height: 0%;
+max-width: 0%;
+box-sizing: border-box;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+}
+
+/* Styles the close link, adds the slide down transition */
+
+a.lightbox-close {
+display: block;
+width:50px;
+height:50px;
+box-sizing: border-box;
+background: white;
+color: black;
+text-decoration: none;
+position: absolute;
+top: -80px;
+right: 0;
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+z-index: -1;
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:before {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+-o-transform:rotate(45deg);
+transform:rotate(45deg);
+}
+
+/* Provides part of the "X" to eliminate an image from the close link */
+
+a.lightbox-close:after {
+content: "";
+display: block;
+height: 30px;
+width: 1px;
+background: black;
+position: absolute;
+left: 26px;
+top:10px;
+-webkit-transform:rotate(-45deg);
+-moz-transform:rotate(-45deg);
+-o-transform:rotate(-45deg);
+transform:rotate(-45deg);
+}
+
+/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
+
+.lightbox-target:target {
+opacity: 1;
+top: 0;
+bottom: 0;
+}
+
+.lightbox-target:target img {
+max-height: 100%;
+max-width: 100%;
+z-index: 4;
+}
+
+.lightbox-target:target a.lightbox-close {
+top: 0px;
+}
 
 
+i:hover{
+	color: red;
+}
+
+#photo6 {
+	position: absolute;
+	top:3680px;
+	left:220px;
+}
+
+#photo6:hover{
+	opacity: .7;
+}
+
+#photo6:hover img {border-radius:50%;}
+#photo6{ transition: all .5s ease-in-out; }
+
+#quote2 {
+	position: absolute;
+	top:4000px;
+	left:700px;
+}
+
+#quote2{ transition: all .2s ease-in-out; }
+#quote2:hover { transform: scale(1.2); }
 
 
-
-
+#photo7{
+	position: absolute;
+	top:3880px;
+	left:990px;
+	opacity: .85;
+	z-index: -1;
+}
 
 
 

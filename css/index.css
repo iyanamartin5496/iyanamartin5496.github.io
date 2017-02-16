@@ -3,13 +3,27 @@ h1 {
 }
 
 a {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Merriweather', serif;
+    color: black;
+
 
 }
 
+#nani {
+
+    position: absolute;
+    left: 400px;
+    
+}
+
+#nani{ transition: all .2s ease-in-out; }
+#nani:hover { transform: scale(.8); }
+
 #first {
 
-    margin-left: 100px;
+    position: absolute;
+    left: 200px;
+    top:280px;
     font-size: 30px;
     -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
@@ -17,14 +31,24 @@ a {
 
 }
 
-#second {
 
-	position: absolute;
-	top:400px;
-	left:450px;
-    font-size: 70px;
-    -ms-transform: rotate(-17deg); /* IE 9 */
-    -webkit-transform: rotate(-17deg); /* Chrome, Safari, Opera */
-    transform: rotate(-17deg);
+#first{ transition: all .2s ease-in-out; }
+#first:hover { transform: scale(2); }
+
+
+#second {
+    position: absolute;
+    left: 300px;
+    top:400px;
+    margin-left: 100px;
+    font-size: 20px;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
 }
+
+#second{ transition: all .2s ease-in-out; }
+#second:hover { transform: scale(2); }
+
+
 
