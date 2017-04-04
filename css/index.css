@@ -110,10 +110,10 @@ a {
     left: 530px;
     top:470px;
     margin-left: 100px;
-    font-size: 20px;
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
+    font-size: 16px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
 }
 
 #seventh{transition: all .2s ease-in-out;}
