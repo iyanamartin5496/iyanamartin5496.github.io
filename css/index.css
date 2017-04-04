@@ -92,5 +92,18 @@ a {
 #fifth{transition: all .2s ease-in-out;}
 #fifth:hover { transform: scale(2); }
 
+#sixth {
+    position: absolute;
+    left: 40px;
+    top:580px;
+    font-size: 30px;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+     transform: rotate(-7deg);
+}
+
+#sixth{transition: all .2s ease-in-out;}
+#sixth:hover { transform: scale(2); }
+
 
 
