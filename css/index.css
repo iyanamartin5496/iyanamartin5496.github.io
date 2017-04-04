@@ -94,8 +94,8 @@ a {
 
 #sixth {
     position: absolute;
-    left: 40px;
-    top:580px;
+    left: 80px;
+    top: 570px;
     font-size: 30px;
     -ms-transform: rotate(-7deg); /* IE 9 */
     -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
