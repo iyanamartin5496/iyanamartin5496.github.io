@@ -18,6 +18,7 @@ function myOtherFunc() {
   }
 }
 
+
 var sizes = [100, 50, 90, 300];
 var timesWeveSeenTheInterval = 0;
 

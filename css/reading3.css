@@ -1,0 +1,51 @@
+p {
+
+	position: absolute;
+	top:140px;
+	left:450px;
+	font-size: 18px;
+		width: 430px; /* Account for margins + border values */
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 130%;
+}
+
+#title {
+
+position: absolute;
+	top:40px;
+	left:50px;
+	font-size: 50px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 130%;
+
+}
+
+#bills {
+	position: absolute;
+	top:45px;
+	left:175px;
+	font-size: 110px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+	text-align: justify;
+    text-justify: inter-word;
+     	line-height: 150%;
+    -ms-transform: rotate(-17deg); /* IE 9 */
+    -webkit-transform: rotate(-17deg); /* Chrome, Safari, Opera */
+    transform: rotate(-17deg);
+    opacity: .2;
+    color: purple;
+}
+
+#bill{
+	color: purple;
+}
