@@ -32,7 +32,7 @@ position: absolute;
 	position: absolute;
 	top:45px;
 	left:175px;
-	font-size: 110px;
+	font-size: 80px;
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
@@ -47,5 +47,5 @@ position: absolute;
 }
 
 #bill{
-	color: purple;
+	color: green;
 }
