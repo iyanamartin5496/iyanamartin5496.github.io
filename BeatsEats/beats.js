@@ -24,13 +24,5 @@ var beats = [
 	date: 3,
 	genre: "Pop"
 },
-{
-	trackName: "dfksjdlfj",
-	trackArtist: "Earth Wind & Fire",
-	mealName: "Veggie Pasta with Bread",
-	date: 1,
-	genre: "Funk"
-}
-
 
 ];

@@ -89,7 +89,7 @@
 
                 var found = _.where(beats, {genre:"Funk"});
 
-                console.log("beats" + found);
+                console.log("beats" , found);
 
                 var find = _.filter(eats, function(individual_thing) {
                     if (   _(individual_thing.mealIngredients).contains("olive oil")   ) {

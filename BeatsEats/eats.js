@@ -3,7 +3,7 @@ var eats = [
 {
 	"mealName": "Veggie Pasta with Bread",
 	"mealIngredients": ["egg noodles", "garlic", "zucchini", "red pepper", 
-	"green pepper", "sourdough multigrain bread", "olive oil", "salt", "pepper"]
+	"green pepper", "sourdough multigrain bread", "olive oil", "salt", "pepper"],
 },
 
 {
