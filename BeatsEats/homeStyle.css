@@ -4,15 +4,6 @@
 	left:40px;
 }
 
-#beats {
-	position: absolute;
-	top: 540px;
-	left:480px;
-	font-family: arial;
-	font-weight: bold;
-	font-size: 18;
-}
-
 p:hover {
 	color: grey;
 }
@@ -24,25 +15,7 @@ h2:hover {
 #eats {
 	position: absolute;
 	top: 540px;
-	left:600px;
-	font-family: arial;
-	font-weight: bold;
-	font-size: 18;
-}
-
-#calendar {
-	position: absolute;
-	top: 540px;
-	left:700px;
-	font-family: arial;
-	font-weight: bold;
-	font-size: 18;
-}
-
-#custom {
-	position: absolute;
-	top: 540px;
-	left:855px;
+	left:790px;
 	font-family: arial;
 	font-weight: bold;
 	font-size: 18;
@@ -51,7 +24,7 @@ h2:hover {
 .popup {
     position: absolute;
     top: 278px;
-    left:180px;
+    left:220px;
     font-color:white;
     cursor: pointer;
     -webkit-user-select: none;

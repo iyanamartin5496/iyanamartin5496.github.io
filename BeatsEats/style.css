@@ -22,11 +22,52 @@ body {
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	top: 0px;
+	top: 40px;
 	left: 0px;
-	/*z-index: -2;
-*/}
+	
+}
 
-/*.track .title {
-	z-index: 2;
-}*/
+.overlay {
+  position: absolute;
+  top: -150;
+  left: 200;
+  width: 100%;
+  height: 100%;
+  background: transparent, transparent, transparent, transparent);
+
+}
+
+.hidden {
+	visibility: hidden;
+
+}
+
+#genreSelect {
+	position: absolute;
+	left:120px;
+
+}
+
+.genreSelect {
+	position: absolute;
+	left:290px;
+	top: 180px;
+	font-family: Tahoma;
+	font-size: 8px;
+}
+
+.h3 {
+	font-size: 0px;
+}
+
+#mealIngredientsSelect {
+	visibility: hidden;
+}
+
+#titleBeat {
+	position: absolute;
+	left:10px;
+}
+
+
+

@@ -19,7 +19,7 @@ var beats = [
 
 {
 	trackName: "Slide",
-	trackArtist: "Calvin Harris ft. Frank Ocean & Migos",
+	trackArtist: "Calvin Harris ft. Frank Ocean",
 	mealName: "Rice, Beans, and Salad",
 	date: 3,
 	genre: ["Pop", "Rap"]
@@ -43,7 +43,7 @@ var beats = [
 
 {
 	trackName: "I Think Of You",
-	trackArtist: "Jeremih ft. Chris Brown & Big Sean",
+	trackArtist: "Jeremih ft. Big Sean",
 	mealName: "Veggie Pasta",
 	date: 6,
 	genre: ["Pop", "R&B", "Rap"]
