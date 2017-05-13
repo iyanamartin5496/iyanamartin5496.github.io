@@ -117,27 +117,27 @@ a {
 }
 
 #seventh{transition: all .2s ease-in-out;}
-#seventh:hover { transform: scale(2); }seventh
+#seventh:hover { transform: scale(2); }
 
 #eigth {
     position: absolute;
-    left: 630px;
-    top:670px;
+    left: 650px;
+    top:640px;
     margin-left: 100px;
     font-size: 16px;
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
 }
 
 #eigth{transition: all .2s ease-in-out;}
-#eigth:hover { transform: scale(2); }seventh
+#eigth:hover { transform: scale(2); }
 
 #ninth {
     position: absolute;
-    left: 260px;
-    top:540px;
-    margin-left: 100px;
+    left: 60px;
+    top:590px;
+    margin-left: 300px;
     font-size: 16px;
     -ms-transform: rotate(-7deg); /* IE 9 */
     -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
@@ -145,7 +145,63 @@ a {
 }
 
 #ninth{transition: all .2s ease-in-out;}
-#ninth:hover { transform: scale(2); }seventh
+#ninth:hover { transform: scale(2); }
+
+#tenth {
+    position: absolute;
+    left: 480px;
+    top:540px;
+    margin-left: 300px;
+    font-size: 16px;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+#tenth{transition: all .2s ease-in-out;}
+#tenth:hover { transform: scale(2); }
+
+#eleventh {
+    position: absolute;
+    left: 560px;
+    top:440px;
+    margin-left: 300px;
+    font-size: 16px;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+#eleventh{transition: all .2s ease-in-out;}
+#eleventh:hover { transform: scale(2); }
+
+#twelfth {
+    position: absolute;
+    left: 260px;
+    top:620px;
+    margin-left: 300px;
+    font-size: 16px;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+#twelfth{transition: all .2s ease-in-out;}
+#twelfth:hover { transform: scale(2); }
+
+#thirteen {
+    position: absolute;
+    left: 620px;
+    top:640px;
+    margin-left: 300px;
+    font-size: 16px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+#thirteen{transition: all .2s ease-in-out;}
+#thirteen:hover { transform: scale(2); }
+
 
 
 
